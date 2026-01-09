@@ -53,7 +53,7 @@ pelda()
 # Amint a függvény lefutott, a x törlődik a memóriából, kívülről nem férünk hozzá.
 
 
-# Publikus függvény → bárki használhatja, az API része.
+# Publikus függvény → bárki használhatja.
 # Privát függvény → csak a belső működéshez, nem része a publikus felületnek.
 # Pythonban a konvenció az _ használata, nem kötelező, de tisztább a kód.
 def _belso_szamitas(a, b):
@@ -140,3 +140,4 @@ kiir(lista)
 # | **Publikus függvény**                             | Külső kód is hívhatja, a modul “API”-jának része.                                                               |
 # | **Alapértelmezett paraméter (default parameter)** | Olyan paraméter, amihez a függvény definiálásakor adunk alapértelmezett értéket. Pl. `def udvozol(nev="Diák"):` |
 # | **Dokumentációs string (docstring)**              | Rövid leírás a függvény működéséről, pl. `"""Ez a függvény összead két számot."""`                              |
+
